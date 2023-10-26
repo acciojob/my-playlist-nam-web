@@ -1,34 +1,33 @@
 /*  your css code here. If applicable */
 body{
 	background-color:rgb(204, 204, 204);
-/* 	text-align:center; */
-	font-family:Arial, sans-serif;
 }
-h1{
+h1,h2{
 	text-align:center;
-}
-h2{
-	text-align:center;
-}
-ul{
-	list-style-type:none;
-	padding0px;
 }
 li{
-	margin: 5px;
+	list-style-type:none;
 }
 a{
 	text-decoration-line:none;
-	color: ;
+	color: black;
+	margin-left: 50px;
+	font-size:20px;
 }
 .player_one, .player_two{
-	text-align:center;
 	background-color:rgb(255, 255, 255);
-	padding: 10px;
-	border-radius: 10px;
+	width:95%;
 	margin: 20px;
 }
-ul{
-	border-radius: 10px;
+#div1{
 	background-color:white;
+	border:2px solid black;
+	border-radius:10px;
+	margin:0px 50px;
+}
+#div2{
+	background-color:white;
+	border:2px solid black;
+	border-radius:20px;
+	margin:0px 100px;
 }
